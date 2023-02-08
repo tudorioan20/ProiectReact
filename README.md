@@ -26,13 +26,13 @@ Rutele private:
 Cat timp utilizator nu este logat apare pagina de "/login".
 Daca un utilizator este logat apare pagina de "/profile".
 
-Sa fie cel putin o pagina cu un form ( login/register) :
+-Sa fie cel putin o pagina cu un form ( login/register) :
 Pagina "/login" contine un formular pentru inregistrare,logare si resetare parola.
 
-Firebase sau orice alt mediu de backend :
+-Firebase sau orice alt mediu de backend :
 Am folosit Firebase in care am creat colectii pentru clienti,comenzi si pentru produse:pizza,paste si bauturi. Legatura bazei de date este facuta in dbconnection.
 
-Folosierea unui state manager:
+-Folosierea unui state manager:
 Pentru state manager am folosit Redux. Acesta verifica state-ul aplicatiei prin reducers, observand daca un utilizator da click pe butoane(de adaugare produs in cos, incrementare numar produse in cos, decrementare numar produse in cos, golire cos, etc.) pentru a putea modifica informatia afisata pe ecran.
 
 Aplicatia este inspirata dupa Trattoria Monza.
