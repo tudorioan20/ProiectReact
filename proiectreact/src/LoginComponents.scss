@@ -1,0 +1,81 @@
+
+.scriere{
+    background-color: #E3F6F5;
+    border: 1px;
+    border-radius: 5px;
+}
+
+
+.Auth{
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    background: #2f5045;
+    
+}
+
+body{
+    background: #2f5045;;
+}
+
+
+
+.butonLogin:hover, .butonRegister:hover, .butonReset:hover {
+    box-shadow: #000000;
+    transform: scale(1.15);
+    -webkit-transition: transform 0.5s ease-in-out;
+    -moz-transition:transform 0.5s ease-in-out;
+    -ms-transition:transform 0.5s ease-in-out;
+}
+
+.login, .reset, .logged{
+    display: block;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    font-family: "Rockwell", sans-serif;
+    letter-spacing: 1.1px;
+}
+
+.login {
+    padding: 2%;
+    overflow: hidden;
+    background-color:#2f5045;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+.reset {
+    padding: 1%;
+    overflow: hidden;
+    background-color:#2f5045;
+    border-radius: 10px;
+    box-shadow: 5px 20px 50px #000;
+}
+
+
+.login_title, .reg_title, .reset_title{
+    color: #edefef;
+    font-size: 2.3em;
+    justify-content: center;
+    display: flex;
+    margin: 60px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+  
+
+
+
+.login > .field, .register > .field, .reset > .field, .logged > .text {
+    margin-bottom: 25px;
+}
+
+
+
+
+.form > Button, .login > Button, .reset > Button{
+    margin: 25px;
+}

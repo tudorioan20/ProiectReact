@@ -1,0 +1,124 @@
+.text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 7vw;
+}
+
+.text > .titlu{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 2.5vh;
+}
+
+.text > .titlu > .product{
+    width: 50%;
+}
+
+.text > .titlu > .price{
+    width: 10%;
+}
+
+.text > .titlu > .quantity{
+    width: 10%;
+    margin-left: 1.5%;
+}
+
+.text > .titlu > .total{
+    width: 17.5%;
+    margin-left: 1.5%;
+}
+
+.text > .item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text > .item > .product{
+    display: flex;
+    flex-direction: row;
+    column-gap: 2.5vw;
+    align-items: center;
+    width: 45%;
+}
+
+.text > .item > .product > img{
+    width: 125px;
+    height: 125px;
+}
+
+.text > .item > .price{
+    width: 10%;
+    margin-left: 8%;
+}
+
+.text > .item > .quantity{
+    width: 10%;
+    display: flex;
+    flex-direction: row;
+    column-gap: .5vw;
+}
+
+.text > .item > .total{
+    width: 10%;
+}
+
+.text > .item{
+    margin-top: 5vh;
+}
+
+.text > .summary{
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.text > .summary > :first-child{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+}
+
+.text > .summary > :first-child .sterge-produs{
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    text-transform: unset;
+}
+
+.text > .summary > .checkout > :nth-child(2) > .trimite-comanda{
+    color: white;
+    border-radius: 10px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    text-transform: unset;
+}
+
+.text > .summary > .checkout{
+    width: 25%;
+    margin-top: -2.5vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+    align-items: center;
+}
+.shoppingCart{
+    color: white;
+    font-family: "Varela Round", sans-serif;
+}
+
+.header{
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+.shoppingCart > .goleste-cos{
+    margin-top: 5vh;
+    margin-left: 5vw;
+}
+

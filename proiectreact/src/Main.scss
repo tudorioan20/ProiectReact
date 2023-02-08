@@ -1,0 +1,139 @@
+.Main {
+  text-align: center;
+  background-color: #2f5045;
+  height: 130vh;
+  font-family: "Rockwell", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(238, 236, 236);
+}
+
+.display-produse{
+  text-align: center;
+  background-color: #2f5045;
+  height: 130vh;
+  font-family: "Rockwell", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20vh;
+  font-size: calc(10px + 2vmin);
+  color: rgb(238, 236, 236);
+}
+h3{
+  text-align: left;
+}
+
+.about{
+  margin-top: 3vw;
+}
+
+.suna{
+  margin-top: 0;
+}
+.shoppingcart{
+  z-index: 999;
+  position: fixed;
+  right: 0;
+  padding-top: 15vh;
+  padding-right: 2vw;
+  padding-bottom: 4vh;
+  
+}
+
+
+.produse{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0vh 3vw 0vh 3vw;
+}
+
+.produse > *{
+  text-decoration: none;
+  color: rgb(238, 236, 236);
+}
+
+.produse > * > *{
+  height: 25vh;
+  width: 20vw;
+  margin: 0vh 2vw;
+}
+
+.pizza{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTgL9h-dWTL9sni43dbij5YO7Zdn4u1rMn4g&usqp=CAU");
+  background-size: 100%;
+}
+
+.paste{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7roynwynEIDo31IK1XfrUy7iZlvojmuf62A&usqp=CAU");
+  background-size: 100%;
+}
+
+.bauturi{
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHdsyeHANE3uMYC_F5cYuWmAyX1wJwHRwiDg&usqp=CAU");
+  background-size: 100% 100%;
+}
+
+.profile_form > * > *{
+  padding-top: 5vh;
+}
+
+.field > .scris{
+  text-align: left;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+  margin-top: 1.5vh;
+}
+
+.buton_logout{
+  margin-left: 10vw;
+}
+
+.Profile {
+  text-align: center;
+}
+
+.profile-header {
+  font-family: "Varela Round", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.profile_content{
+  text-align: left;
+  padding-left: 7.5vw;
+  padding-top: 10vh;
+  padding-bottom: 5vh;
+  color: white;
+  font-family: "Varela Round", sans-serif;
+}
+
+.contents{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.contents > * {
+  width: 25vw;
+}
+.contents_bauturi > * {
+  width: 25vw;
+}
+.produs > img{
+  padding-top: 4vh;
+  height: 20vh;
+  width: 12vw;
+}
+.text-produs{
+  height:25vh;
+}
+.produs{
+  padding:1em;
+}
